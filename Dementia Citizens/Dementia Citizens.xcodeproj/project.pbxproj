@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F0E69C2E1C55040A001CB89E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E69C2D1C55040A001CB89E /* AppDelegate.swift */; };
+		F0E69C301C55040A001CB89E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E69C2F1C55040A001CB89E /* ViewController.swift */; };
+		F0E69C331C55040A001CB89E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0E69C311C55040A001CB89E /* Main.storyboard */; };
+		F0E69C351C55040A001CB89E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0E69C341C55040A001CB89E /* Assets.xcassets */; };
+		F0E69C381C55040A001CB89E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0E69C361C55040A001CB89E /* LaunchScreen.storyboard */; };
+		F0E69C431C55040A001CB89E /* Dementia_CitizensTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E69C421C55040A001CB89E /* Dementia_CitizensTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F0E69C3F1C55040A001CB89E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0E69C221C550409001CB89E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0E69C291C55040A001CB89E;
+			remoteInfo = "Dementia Citizens";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F0E69C2A1C55040A001CB89E /* Dementia Citizens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dementia Citizens.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0E69C2D1C55040A001CB89E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F0E69C2F1C55040A001CB89E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F0E69C321C55040A001CB89E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F0E69C341C55040A001CB89E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F0E69C371C55040A001CB89E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F0E69C391C55040A001CB89E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0E69C3E1C55040A001CB89E /* Dementia CitizensTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dementia CitizensTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0E69C421C55040A001CB89E /* Dementia_CitizensTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dementia_CitizensTests.swift; sourceTree = "<group>"; };
+		F0E69C441C55040A001CB89E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0E69C271C55040A001CB89E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0E69C3B1C55040A001CB89E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F0E69C211C550409001CB89E = {
+			isa = PBXGroup;
+			children = (
+				F0E69C2C1C55040A001CB89E /* Dementia Citizens */,
+				F0E69C411C55040A001CB89E /* Dementia CitizensTests */,
+				F0E69C2B1C55040A001CB89E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F0E69C2B1C55040A001CB89E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0E69C2A1C55040A001CB89E /* Dementia Citizens.app */,
+				F0E69C3E1C55040A001CB89E /* Dementia CitizensTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0E69C2C1C55040A001CB89E /* Dementia Citizens */ = {
+			isa = PBXGroup;
+			children = (
+				F0E69C2D1C55040A001CB89E /* AppDelegate.swift */,
+				F0E69C2F1C55040A001CB89E /* ViewController.swift */,
+				F0E69C311C55040A001CB89E /* Main.storyboard */,
+				F0E69C341C55040A001CB89E /* Assets.xcassets */,
+				F0E69C361C55040A001CB89E /* LaunchScreen.storyboard */,
+				F0E69C391C55040A001CB89E /* Info.plist */,
+			);
+			path = "Dementia Citizens";
+			sourceTree = "<group>";
+		};
+		F0E69C411C55040A001CB89E /* Dementia CitizensTests */ = {
+			isa = PBXGroup;
+			children = (
+				F0E69C421C55040A001CB89E /* Dementia_CitizensTests.swift */,
+				F0E69C441C55040A001CB89E /* Info.plist */,
+			);
+			path = "Dementia CitizensTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0E69C291C55040A001CB89E /* Dementia Citizens */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0E69C471C55040A001CB89E /* Build configuration list for PBXNativeTarget "Dementia Citizens" */;
+			buildPhases = (
+				F0E69C261C55040A001CB89E /* Sources */,
+				F0E69C271C55040A001CB89E /* Frameworks */,
+				F0E69C281C55040A001CB89E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dementia Citizens";
+			productName = "Dementia Citizens";
+			productReference = F0E69C2A1C55040A001CB89E /* Dementia Citizens.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F0E69C3D1C55040A001CB89E /* Dementia CitizensTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0E69C4A1C55040A001CB89E /* Build configuration list for PBXNativeTarget "Dementia CitizensTests" */;
+			buildPhases = (
+				F0E69C3A1C55040A001CB89E /* Sources */,
+				F0E69C3B1C55040A001CB89E /* Frameworks */,
+				F0E69C3C1C55040A001CB89E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0E69C401C55040A001CB89E /* PBXTargetDependency */,
+			);
+			name = "Dementia CitizensTests";
+			productName = "Dementia CitizensTests";
+			productReference = F0E69C3E1C55040A001CB89E /* Dementia CitizensTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0E69C221C550409001CB89E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Guillaume Vial-Pailler";
+				TargetAttributes = {
+					F0E69C291C55040A001CB89E = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					F0E69C3D1C55040A001CB89E = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = F0E69C291C55040A001CB89E;
+					};
+				};
+			};
+			buildConfigurationList = F0E69C251C550409001CB89E /* Build configuration list for PBXProject "Dementia Citizens" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F0E69C211C550409001CB89E;
+			productRefGroup = F0E69C2B1C55040A001CB89E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0E69C291C55040A001CB89E /* Dementia Citizens */,
+				F0E69C3D1C55040A001CB89E /* Dementia CitizensTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0E69C281C55040A001CB89E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0E69C381C55040A001CB89E /* LaunchScreen.storyboard in Resources */,
+				F0E69C351C55040A001CB89E /* Assets.xcassets in Resources */,
+				F0E69C331C55040A001CB89E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0E69C3C1C55040A001CB89E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0E69C261C55040A001CB89E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0E69C301C55040A001CB89E /* ViewController.swift in Sources */,
+				F0E69C2E1C55040A001CB89E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0E69C3A1C55040A001CB89E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0E69C431C55040A001CB89E /* Dementia_CitizensTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F0E69C401C55040A001CB89E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0E69C291C55040A001CB89E /* Dementia Citizens */;
+			targetProxy = F0E69C3F1C55040A001CB89E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F0E69C311C55040A001CB89E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0E69C321C55040A001CB89E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F0E69C361C55040A001CB89E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0E69C371C55040A001CB89E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F0E69C451C55040A001CB89E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F0E69C461C55040A001CB89E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0E69C481C55040A001CB89E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Dementia Citizens/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SP-EE.Dementia-Citizens";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F0E69C491C55040A001CB89E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Dementia Citizens/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SP-EE.Dementia-Citizens";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F0E69C4B1C55040A001CB89E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Dementia CitizensTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SP-EE.Dementia-CitizensTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dementia Citizens.app/Dementia Citizens";
+			};
+			name = Debug;
+		};
+		F0E69C4C1C55040A001CB89E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Dementia CitizensTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SP-EE.Dementia-CitizensTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dementia Citizens.app/Dementia Citizens";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0E69C251C550409001CB89E /* Build configuration list for PBXProject "Dementia Citizens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0E69C451C55040A001CB89E /* Debug */,
+				F0E69C461C55040A001CB89E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0E69C471C55040A001CB89E /* Build configuration list for PBXNativeTarget "Dementia Citizens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0E69C481C55040A001CB89E /* Debug */,
+				F0E69C491C55040A001CB89E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F0E69C4A1C55040A001CB89E /* Build configuration list for PBXNativeTarget "Dementia CitizensTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0E69C4B1C55040A001CB89E /* Debug */,
+				F0E69C4C1C55040A001CB89E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0E69C221C550409001CB89E /* Project object */;
+}
