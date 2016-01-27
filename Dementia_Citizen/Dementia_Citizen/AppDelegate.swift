@@ -22,6 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         pageController.currentPageIndicatorTintColor = UIColor.blackColor()
         pageController.backgroundColor = UIColor.whiteColor()
         return true
+
     }
 
     func applicationWillResignActive(application: UIApplication) {

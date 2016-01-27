@@ -8,16 +8,30 @@
 
 import UIKit
 
-class ViewController: UIViewController, UIPageViewControllerDataSource {
+class ViewController: UIViewController, UIPageViewControllerDataSource, UIPickerViewDelegate, UIPickerViewDataSource {
+    
+    
+//    func numberOfComponentsInPickerView( pickerView: UIPickerView!)-> String {}
+//    
+//    func pickerView(pickerView: UIPickerView!,
+//        numberOfRowsInComponent component: String) -> String{}
     
     var pageViewController: UIPageViewController!
     var pageTitles: NSArray!
     var pageImages: NSArray!
     
     
+    @IBOutlet weak var picker: UIPickerView!
+    
+    var pickerData: [String] = [String]()
+    
+
+        // Input data into the Array:
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
+
         
         self.pageTitles = NSArray(objects: "Dementia Citizens", "Dementia Citizens", "Dementia Citizens")
         self.pageImages = NSArray(objects: "scroll1", "scroll2", "scroll3")
@@ -41,11 +55,30 @@ class ViewController: UIViewController, UIPageViewControllerDataSource {
         self.view.addSubview(self.pageViewController.view)
         
         self.pageViewController.didMoveToParentViewController(self)
+        
+//        self.picker.delegate = self
+//        self.picker.dataSource = self
+        pickerData = ["1", "2", "3", "4", "5", "6"]
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    // The number of columns of data
+    func numberOfComponentsInPickerView(pickerView: UIPickerView) -> Int {
+        return 1
+    }
+    
+    // The number of rows of data
+    func pickerView(pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+        return pickerData.count
+    }
+    
+    // The data to return for the row and component (column) that's being passed in
+    func pickerView(pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+        return pickerData[row]
     }
     
     @IBAction func restartAction(sender: AnyObject){}
