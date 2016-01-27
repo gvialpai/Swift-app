@@ -37,6 +37,53 @@
             <point key="canvasLocation" x="673" y="-426"/>
         </scene>
         <!--View Controller-->
+        <scene sceneID="C52-iU-Ouq">
+            <objects>
+                <viewController id="eL7-n7-Yfu" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3Ty-qv-0JM"/>
+                        <viewControllerLayoutGuide type="bottom" id="XfP-au-nFc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Gg1-b6-OTx">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Before Starting" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RG1-YQ-qfs">
+                                <rect key="frame" x="0.0" y="62" width="600" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TCM-6z-taf">
+                                <rect key="frame" x="204" y="266" width="193" height="30"/>
+                                <state key="normal" title="I am a person with dementia"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OgZ-d6-WWo">
+                                <rect key="frame" x="154" y="334" width="293" height="30"/>
+                                <state key="normal" title="We are a carer and a person with dementia"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i4f-7R-0tR">
+                                <rect key="frame" x="230" y="414" width="141" height="30"/>
+                                <state key="normal" title="I am neither of those"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8jN-Dm-yHp">
+                                <rect key="frame" x="158" y="106" width="285" height="133"/>
+                                <string key="text">As this research project is focused on people with dementia and their carers please tell us wheter you are a person with dementia or a carer</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <toolbarItems/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2kw-c2-DT6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1027" y="337"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="TYB-GY-wYs">
             <objects>
                 <viewController id="uvk-ob-qF3" sceneMemberID="viewController">
