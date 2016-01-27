@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Dementia Citizens.xcscheme</key>
+		<key>Dementia_Citizen.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>F0E69C291C55040A001CB89E</key>
+		<key>F0DD1F961C58C2FF001172AE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F0E69C3D1C55040A001CB89E</key>
+		<key>F0DD1FAA1C58C300001172AE</key>
 		<dict>
 			<key>primary</key>
 			<true/>

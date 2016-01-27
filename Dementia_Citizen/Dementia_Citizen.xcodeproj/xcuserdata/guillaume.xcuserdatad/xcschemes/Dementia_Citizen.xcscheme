@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F0E69C291C55040A001CB89E"
-               BuildableName = "Dementia Citizens.app"
-               BlueprintName = "Dementia Citizens"
-               ReferencedContainer = "container:Dementia Citizens.xcodeproj">
+               BlueprintIdentifier = "F0DD1F961C58C2FF001172AE"
+               BuildableName = "Dementia_Citizen.app"
+               BlueprintName = "Dementia_Citizen"
+               ReferencedContainer = "container:Dementia_Citizen.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,20 +32,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F0E69C3D1C55040A001CB89E"
-               BuildableName = "Dementia CitizensTests.xctest"
-               BlueprintName = "Dementia CitizensTests"
-               ReferencedContainer = "container:Dementia Citizens.xcodeproj">
+               BlueprintIdentifier = "F0DD1FAA1C58C300001172AE"
+               BuildableName = "Dementia_CitizenTests.xctest"
+               BlueprintName = "Dementia_CitizenTests"
+               ReferencedContainer = "container:Dementia_Citizen.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F0E69C291C55040A001CB89E"
-            BuildableName = "Dementia Citizens.app"
-            BlueprintName = "Dementia Citizens"
-            ReferencedContainer = "container:Dementia Citizens.xcodeproj">
+            BlueprintIdentifier = "F0DD1F961C58C2FF001172AE"
+            BuildableName = "Dementia_Citizen.app"
+            BlueprintName = "Dementia_Citizen"
+            ReferencedContainer = "container:Dementia_Citizen.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -65,10 +65,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F0E69C291C55040A001CB89E"
-            BuildableName = "Dementia Citizens.app"
-            BlueprintName = "Dementia Citizens"
-            ReferencedContainer = "container:Dementia Citizens.xcodeproj">
+            BlueprintIdentifier = "F0DD1F961C58C2FF001172AE"
+            BuildableName = "Dementia_Citizen.app"
+            BlueprintName = "Dementia_Citizen"
+            ReferencedContainer = "container:Dementia_Citizen.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -84,10 +84,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F0E69C291C55040A001CB89E"
-            BuildableName = "Dementia Citizens.app"
-            BlueprintName = "Dementia Citizens"
-            ReferencedContainer = "container:Dementia Citizens.xcodeproj">
+            BlueprintIdentifier = "F0DD1F961C58C2FF001172AE"
+            BuildableName = "Dementia_Citizen.app"
+            BlueprintName = "Dementia_Citizen"
+            ReferencedContainer = "container:Dementia_Citizen.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

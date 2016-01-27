@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  Dementia Citizens
+//  Dementia_Citizen
 //
-//  Created by Guillaume Vial-Pailler on 1/24/16.
+//  Created by Guillaume Vial-Pailler on 1/27/16.
 //  Copyright © 2016 Guillaume Vial-Pailler. All rights reserved.
 //
 

@@ -1,15 +1,15 @@
 //
-//  Dementia_CitizensTests.swift
-//  Dementia CitizensTests
+//  Dementia_CitizenTests.swift
+//  Dementia_CitizenTests
 //
-//  Created by Guillaume Vial-Pailler on 1/24/16.
+//  Created by Guillaume Vial-Pailler on 1/27/16.
 //  Copyright © 2016 Guillaume Vial-Pailler. All rights reserved.
 //
 
 import XCTest
-@testable import Dementia_Citizens
+@testable import Dementia_Citizen
 
-class Dementia_CitizensTests: XCTestCase {
+class Dementia_CitizenTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
