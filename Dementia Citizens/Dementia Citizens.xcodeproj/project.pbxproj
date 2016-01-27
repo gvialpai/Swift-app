@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F01D7F441C5831AF00167270 /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01D7F431C5831AF00167270 /* ContentViewController.swift */; };
 		F0E69C2E1C55040A001CB89E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E69C2D1C55040A001CB89E /* AppDelegate.swift */; };
 		F0E69C301C55040A001CB89E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E69C2F1C55040A001CB89E /* ViewController.swift */; };
 		F0E69C331C55040A001CB89E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0E69C311C55040A001CB89E /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F01D7F431C5831AF00167270 /* ContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
 		F0E69C2A1C55040A001CB89E /* Dementia Citizens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dementia Citizens.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0E69C2D1C55040A001CB89E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F0E69C2F1C55040A001CB89E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 				F0E69C2D1C55040A001CB89E /* AppDelegate.swift */,
 				F0E69C2F1C55040A001CB89E /* ViewController.swift */,
 				F0E69C311C55040A001CB89E /* Main.storyboard */,
+				F01D7F431C5831AF00167270 /* ContentViewController.swift */,
 				F0E69C341C55040A001CB89E /* Assets.xcassets */,
 				F0E69C361C55040A001CB89E /* LaunchScreen.storyboard */,
 				F0E69C391C55040A001CB89E /* Info.plist */,
@@ -198,6 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0E69C301C55040A001CB89E /* ViewController.swift in Sources */,
+				F01D7F441C5831AF00167270 /* ContentViewController.swift in Sources */,
 				F0E69C2E1C55040A001CB89E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -388,6 +392,7 @@
 				F0E69C491C55040A001CB89E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F0E69C4A1C55040A001CB89E /* Build configuration list for PBXNativeTarget "Dementia CitizensTests" */ = {
 			isa = XCConfigurationList;
@@ -396,6 +401,7 @@
 				F0E69C4C1C55040A001CB89E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
