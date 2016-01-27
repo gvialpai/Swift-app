@@ -138,7 +138,7 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PFf-yV-4yy">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tuto1" translatesAutoresizingMaskIntoConstraints="NO" id="PFf-yV-4yy">
                                 <rect key="frame" x="0.0" y="78" width="600" height="257"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="This app will help you create a playlist of personally relevant songs" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zo2-8H-rc9">
@@ -205,6 +205,9 @@
             <point key="canvasLocation" x="561" y="1092"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="tuto1" width="375" height="301"/>
+    </resources>
     <inferredMetricsTieBreakers>
         <segue reference="y5j-cK-3kL"/>
     </inferredMetricsTieBreakers>
