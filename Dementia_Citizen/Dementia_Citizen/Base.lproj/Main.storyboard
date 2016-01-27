@@ -121,6 +121,50 @@
             <point key="canvasLocation" x="1027" y="337"/>
         </scene>
         <!--View Controller-->
+        <scene sceneID="DDD-g7-0rC">
+            <objects>
+                <viewController id="1M6-aP-Dpk" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="N4V-6W-4KL"/>
+                        <viewControllerLayoutGuide type="bottom" id="GYu-PC-wru"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Bss-9I-CT7">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Tap to Type" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HpL-FD-gVh">
+                                <rect key="frame" x="208" y="193" width="185" height="30"/>
+                                <color key="backgroundColor" red="0.44743918170000002" green="0.81165167299999996" blue="0.79909229550000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="95v-JB-pcY">
+                                <rect key="frame" x="208" y="404" width="185" height="65"/>
+                                <color key="backgroundColor" red="0.40602433028418006" green="0.73652541035353536" blue="0.72512852550992934" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Carer's Details" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Sbj-6W-ubg">
+                                <rect key="frame" x="208" y="37" width="185" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What is your first name?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zDx-US-hRO">
+                                <rect key="frame" x="139" y="75" width="322" height="43"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WwM-hk-le7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2551" y="89"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="TYB-GY-wYs">
             <objects>
                 <viewController id="uvk-ob-qF3" sceneMemberID="viewController">
@@ -142,11 +186,21 @@
                                 <rect key="frame" x="0.0" y="78" width="600" height="257"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="This app will help you create a playlist of personally relevant songs" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zo2-8H-rc9">
-                                <rect key="frame" x="20" y="411" width="560" height="144"/>
+                                <rect key="frame" x="20" y="327" width="560" height="86"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oye-Gc-cuD">
+                                <rect key="frame" x="208" y="456" width="185" height="65"/>
+                                <color key="backgroundColor" red="0.40602433030000001" green="0.73652541039999997" blue="0.72512852549999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="1M6-aP-Dpk" kind="show" id="pQu-gC-uQi"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
