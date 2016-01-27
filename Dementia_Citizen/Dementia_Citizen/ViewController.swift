@@ -22,7 +22,7 @@ class ViewController: UIViewController, UIPageViewControllerDataSource {
         self.pageTitles = NSArray(objects: "Dementia Citizens", "Dementia Citizens", "Dementia Citizens")
         self.pageImages = NSArray(objects: "scroll1", "scroll2", "scroll3")
         
-        self.pageViewController = self.storyboard?.instantiateViewControllerWithIdentifier("") as! UIPageViewController
+        self.pageViewController = self.storyboard?.instantiateViewControllerWithIdentifier("PageViewController") as! UIPageViewController
         
         self.pageViewController.dataSource = self
         
@@ -36,7 +36,11 @@ class ViewController: UIViewController, UIPageViewControllerDataSource {
         
         self.pageViewController.view.frame = CGRectMake(0, 30, self.view.frame.width, self.view.frame.size.height - 60)
         
+        self.addChildViewController(self.pageViewController)
         
+        self.view.addSubview(self.pageViewController.view)
+        
+        self.pageViewController.didMoveToParentViewController(self)
     }
 
     override func didReceiveMemoryWarning() {
@@ -53,7 +57,7 @@ class ViewController: UIViewController, UIPageViewControllerDataSource {
             return ContentViewController()
         }
         
-        var vc: ContentViewController = self.storyboard?.instantiateViewControllerWithIdentifier("") as! ContentViewController
+        var vc: ContentViewController = self.storyboard?.instantiateViewControllerWithIdentifier("ContentViewController") as! ContentViewController
         
         vc.imageFile = self.pageImages[index] as! String
         vc.titleText = self.pageTitles[index] as! String
